@@ -10,35 +10,19 @@
   --border-line: #e7e9fc;
 }
 
-@media screen and (max-width: 479px) {
-  .container {
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-left: auto;
-    margin-right: auto;
-  }
 
-  .modal {
-    width: 100%;
-    max-width: 392px;
-    padding: 72px 16px 24px 16px;
-    height: auto;
-  }
 
-  .mobile-menu .link-tel {
-    font-size: 25px;
-  }
-}
-
-@media screen and (min-width: 428px) {
+@media screen and (min-width: 320px) {
   .container {
     max-width: 480px;
     width: 100%;
   }
 
   .mobile-menu .link-tel {
-    font-size: 36px;
+    font-size: 25px;
+    color: var(--main-link-color);
   }
+  
 }
 
 @media screen and (min-width: 320px) {
